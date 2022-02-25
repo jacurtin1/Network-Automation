@@ -1,0 +1,5 @@
+ip_addr_list = ['192.168.10.10', '192.168.10.11', '192.168.10.15']
+
+for i, ip in enumerate(ip_addr_list):
+     print(i, ' = ',ip)
+     print('-' * 30)
